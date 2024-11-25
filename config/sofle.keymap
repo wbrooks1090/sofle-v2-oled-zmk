@@ -12,6 +12,15 @@
 #define RAISE 2
 #define ADJUST 3
 
+&mt {
+    tapping-term-ms = <280>;
+    flavor = "balanced";
+    hold-trigger-key-positions = <28 27 26 25 31 32 33 34 53 54 55 56>;
+    quick-tap-ms = <175>;
+    require-prior-idle-ms = <150>;
+    hold-trigger-on-release;
+};
+
 / {
     // Activate ADJUST layer by pressing raise and lower
 
