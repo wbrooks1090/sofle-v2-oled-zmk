@@ -47,11 +47,11 @@
             //               | GUI | ALT  | CTRL | LOWER|  ENTER |  | SPACE | RAISE| CTRL  | ALT   | GUI  |
 
             bindings = <
-&kp GRAVE     &kp N1  &kp N2       &kp N3          &kp N4          &kp N5                                    &kp N6     &kp N7            &kp N8             &kp N9               &kp N0    &kp DELETE
-&kp TAB       &kp Q   &kp W        &kp E           &kp R           &kp T                                     &kp Y      &kp U             &kp I              &kp O                &kp P     &kp BACKSLASH
-&lt 2 ESCAPE  &kp A   &mt LCTRL S  &mt LEFT_ALT D  &mt LEFT_GUI F  &kp G                                     &kp H      &mt RGUI J        &mt RALT K         &mt LCTRL L          &kp SEMI  &kp SQT
-&kp LSHFT     &kp Z   &kp X        &kp C           &kp V           &kp B        &kp C_MUTE    &kp LC(C)      &kp N      &kp M             &kp COMMA          &kp DOT              &kp FSLH  &mt RA(RC(RIGHT_GUI)) EQUAL
-                      &kp LCTRL    &kp LALT        &kp LEFT_GUI    &lt 1 SPACE  &kp RET       &kp BACKSPACE  &kp SPACE  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &mt MINUS RA(RCTRL)
+&kp GRAVE     &kp N1  &kp N2         &kp N3          &kp N4          &kp N5                                    &kp N6     &kp N7            &kp N8             &kp N9               &kp N0    &kp DELETE
+&kp TAB       &kp Q   &kp W          &kp E           &kp R           &kp T                                     &kp Y      &kp U             &kp I              &kp O                &kp P     &kp BACKSLASH
+&lt 2 ESCAPE  &kp A   &mt LCTRL S    &mt LEFT_ALT D  &mt LEFT_GUI F  &kp G                                     &kp H      &mt RGUI J        &mt RALT K         &mt LCTRL L          &kp SEMI  &kp SQT
+&kp LSHFT     &kp Z   &kp X          &kp C           &kp V           &kp B        &kp C_MUTE    &kp LC(C)      &kp N      &kp M             &kp COMMA          &kp DOT              &kp FSLH  &mt RA(RC(RIGHT_GUI)) EQUAL
+                      &kp LG(LCTRL)  &kp LG(LALT)    &kp LG(C)       &lt 1 SPACE  &kp RET       &kp BACKSPACE  &kp SPACE  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &mt MINUS RA(RCTRL)
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
@@ -90,11 +90,11 @@
             //                |      |       |       |      |      |  |      |      |      |       |      |
 
             bindings = <
-&trans  &kp F1      &kp F2     &kp F3       &kp F4       &kp F5                                 &kp F6        &kp F7     &kp F8     &kp F9     &kp F10  &kp F11
-&trans  &kp INS     &kp PSCRN  &kp K_CMENU  &trans       &trans                                 &kp PG_UP     &trans     &kp UP     &trans     &kp N0   &kp F12
-&trans  &kp LALT    &kp LCTRL  &kp LSHFT    &trans       &kp CLCK                               &kp PG_DN     &kp LEFT   &kp DOWN   &kp RIGHT  &kp DEL  &kp BSPC
-&trans  &kp K_UNDO  &kp K_CUT  &kp K_COPY   &kp K_PASTE  &trans    &trans    &trans             &trans        &kp LC(C)  &kp LC(X)  &kp LC(V)  &trans   &trans
-                    &trans     &trans       &trans       &trans    &trans    &kp RIGHT_CONTROL  &kp LEFT_ALT  &trans     &trans     &trans
+&trans  &kp F1      &kp F2     &kp F3       &kp F4       &kp F5                      &kp F6          &kp F7          &kp F8        &kp F9     &kp F10  &kp F11
+&trans  &kp INS     &kp PSCRN  &kp K_CMENU  &trans       &trans                      &kp PG_UP       &trans          &trans        &trans     &kp N0   &kp F12
+&trans  &kp LALT    &kp LCTRL  &kp LSHFT    &trans       &kp CLCK                    &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT  &kp DEL  &kp BSPC
+&trans  &kp K_UNDO  &kp K_CUT  &kp K_COPY   &kp K_PASTE  &trans    &trans    &trans  &kp PAGE_DOWN   &kp LC(C)       &kp LC(X)     &kp LC(V)  &trans   &trans
+                    &trans     &trans       &trans       &trans    &trans    &trans  &trans          &trans          &trans        &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
